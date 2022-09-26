@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Petrona:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fredoka+One&family=Fredoka:wght@300;400;500;600;700&family=Petrona:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
     --nude-cafe: #B98361;
     --verde-dark: #21352A;
@@ -10,6 +9,7 @@
     --font-petrona: 'Petrona', serif;
     --font-fredoka: 'Fredoka', sans-serif;
     --font-comfortaa: 'Comfortaa', cursive;
+    --font-fredoka-one: 'Fredoka One', cursive;
 }
 
 *{

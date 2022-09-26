@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from "./components/Header/Header"
 import Home from "./Pages/Home/Home"
+import Section from "./Pages/Section/Section"
 
 function App() {
     return (
@@ -8,6 +9,9 @@ function App() {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/bebidas" element={<Section text={'o tipo de bebida:'} section={'Bebidas'} button1={'Quentes'} button2={'Geladas'}/>} />
+                <Route path="/padaria" element={<Section text={'o seu pedido:'} section={'Padaria'} button1={'Pães'} button2={'Sem glúten'} />} />
+                <Route path="/doces" element={<Section text={'o tipo de doce:'} section={'Doces'} button1={'Doces'} button2={'Sem lactose'} />} />
             </Routes>
         </BrowserRouter>
     )

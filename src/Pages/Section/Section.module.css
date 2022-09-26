@@ -1,0 +1,49 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 22rem;
+}
+
+.text, .title {
+    color: var(--bege-claro);
+}
+
+.text {
+    font-family: var(--font-comfortaa);
+    font-size: 14px;
+    margin-top: 3em;
+}
+
+.title{
+    font-family: var(--font-fredoka-one);
+    color: var(--verde-dark);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: var(--bege-claro);
+    font-size: 32px;
+}
+
+.icon{
+    color: var(--nude-cafe);
+    font-size: 2rem;
+}
+
+.button1, .button2 {
+    font-family: var(--font-comfortaa);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .6em 2em;
+    border: 1px solid var(--nude-cafe);
+    width: 11em;
+}
+
+.button1 {
+    color: var(--verde-dark);
+    background-color: var(--nude-cafe);
+}
+
+.button2 {
+    color: var(--nude-cafe);
+}
