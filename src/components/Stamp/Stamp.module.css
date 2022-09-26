@@ -1,0 +1,33 @@
+.stamp{
+    display: grid;
+    grid-template-areas: 
+    'image title'
+    'image text';
+    width: 12.6em;
+}
+
+.image {
+    grid-area: image;
+    width: 4rem;
+    border-radius: 1em;
+    border: 1px solid var(--nude-cafe);
+}
+
+.title, .text {
+    color: var(--bege-claro);
+    font-family: var(--font-comfortaa);
+}
+
+.title{
+    grid-area: title;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.text {
+    grid-area: text;
+    font-size: 9px;
+    width: 13em;
+    font-weight: 200;
+}
