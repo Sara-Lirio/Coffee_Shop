@@ -1,0 +1,13 @@
+:root {
+    --nude-cafe: #B98361;
+    --verde-dark: #21352A;
+    --bege-claro: #F6E7D8;
+    --branco: #FFF;
+    --dark: #474545;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
