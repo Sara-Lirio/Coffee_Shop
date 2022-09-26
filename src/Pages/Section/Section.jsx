@@ -12,7 +12,7 @@ const Section = ({ text, section, button1, button2 }) => {
             <h2 className={style.title}>{section}</h2>
             <Button className={style.button1} button={button1} />
             <Button className={style.button2} button={button2} />
-            <Link>
+            <Link to='/'>
                 <p className={style.text}> voltar ao menu</p>
             </Link>
         </section>

@@ -14,11 +14,13 @@ const Home = () => {
                 <h1 className={style.sectionPhase}>O seu bom dia começa aqui!</h1>
             </section>
             <div className={style.stamps}>
-            <Stamp image={stamp1} title={'high quality'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'}/>
-            <Stamp image={stamp2} title={'awesome aroma'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'}/>
-            <Stamp image={stamp3} title={'take and drink'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'}/>
+                <Stamp image={stamp1} title={'high quality'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'} />
+                <Stamp image={stamp2} title={'awesome aroma'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'} />
+                <Stamp image={stamp3} title={'take and drink'} text={'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.'} />
             </div>
-           
+            <section className={style.sectionPromo}>
+                <h1 className={style.titlePromo}>Promoções da Semana</h1>
+            </section>
         </main>
     )
 }

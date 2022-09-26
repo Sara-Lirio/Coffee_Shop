@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Button = ({className, button}) => {
+const Button = ({route, className, button}) => {
   return (
-    <button className={className}>{button}</button>
+    <Link to={route} className={className}>{button}</Link>
   )
 }
 
