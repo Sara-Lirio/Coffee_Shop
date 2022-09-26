@@ -1,13 +1,10 @@
-:root {
-    --nude-cafe: #B98361;
-    --verde-dark: #21352A;
-}
-
 .header {
     background-color: var(--verde-dark);
-    border-bottom: 2px solid var(--nude-cafe);
+    border-bottom: 3px solid var(--nude-cafe);
+    text-align: center;
+    margin: 1em;
 }
 
 .logo {
-    align-items: center;
+    width: 12rem;
 }
