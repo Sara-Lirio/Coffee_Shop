@@ -14,4 +14,8 @@
         border: none;
         margin: .5em;
     }
+
+    .logo {
+        width: 9rem;
+    }
 }

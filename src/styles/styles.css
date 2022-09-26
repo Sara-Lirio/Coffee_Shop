@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Petrona:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     --nude-cafe: #B98361;
@@ -8,6 +8,7 @@
     --dark: #474545;
 
     --font-petrona: 'Petrona', serif;
+    --font-fredoka: 'Fredoka', sans-serif;
 }
 
 *{
