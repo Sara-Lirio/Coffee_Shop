@@ -8,3 +8,10 @@
 .logo {
     width: 12rem;
 }
+
+@media (min-width: 49.0rem){
+    .header{
+        border: none;
+        margin: .5em;
+    }
+}

@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--nude-cafe);
+    color: var(--verde-dark);
+    border: none;
+}
+
+.button, .btnpromo {
+    border-radius: 16px;
+    font-size: 22px;
+    font-family: var(--font-petrona);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 12rem;
+    height: 2.3rem;
+    margin-top: 1.6rem;
+}
+
+.btnpromo{
+    color: var(--nude-cafe);
+    border: 1px solid var(--nude-cafe);
+}
+
+@media (min-width: 49.0rem){
+    .menu{
+        flex-direction: row;
+        background-color: var(--nude-cafe);
+        justify-content: center;
+    }
+
+    .button {
+        height: 2.2rem;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .btnpromo{
+        display: none;
+    }
+}
