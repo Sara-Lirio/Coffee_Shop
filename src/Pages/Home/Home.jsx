@@ -5,8 +5,10 @@ import style from './Home.module.css'
 import stamp1 from '../../assets/images/1.png'
 import stamp2 from '../../assets/images/2.png'
 import stamp3 from '../../assets/images/3.png'
+import CardPromo from '../../components/CardPromo/CardPromo'
 
 const Home = () => {
+
     return (
         <main>
             <Menu />
@@ -20,6 +22,7 @@ const Home = () => {
             </div>
             <section className={style.sectionPromo}>
                 <h1 className={style.titlePromo}>Promoções da Semana</h1>
+                <CardPromo />
             </section>
         </main>
     )

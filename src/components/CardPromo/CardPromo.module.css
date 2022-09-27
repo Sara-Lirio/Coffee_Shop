@@ -1,0 +1,27 @@
+.sectionCard{
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.card {
+    background-color: var(--nude-cafe);
+    height: 14em;
+    width: 10em;
+    border-radius: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .6em;
+}
+
+.img{
+    width: 9em;
+    background-color: var(--nude-cafe);
+}
+
+.imgtea{
+    width: 5.5em;
+    background-color: var(--nude-cafe);
+}
+
