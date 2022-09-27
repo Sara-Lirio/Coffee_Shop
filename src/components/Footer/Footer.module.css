@@ -1,0 +1,47 @@
+.footer {
+    font-family: var(--font-comfortaa);
+    color: var(--bege-claro);
+    display: none;
+}
+
+.contact { grid-area: contact; }
+.contactTel { 
+    grid-area: contactTel;
+    padding-top: 1em;
+ }
+.contactEmail { grid-area: contactEmail;}
+.contactEnd { 
+    grid-area: contactEnd;
+    width: 10rem;
+    font-size: 11px;
+}
+
+.contactTel, .contactEmail {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.icons {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    grid-area: icons;
+}
+
+.logo {
+    width: 4rem;
+    grid-area: logo;
+}
+
+@media (min-width: 49.0rem) {
+    .footer{
+        display: grid;
+        grid-template-areas: 
+        'contact contact contact contact contact contact logo'
+        'contactTel contactTel contactEnd contactEnd icons icons logo'
+        'contactTel contactTel  contactEnd contactEnd icons icons logo';
+        border-top: 3px solid var(--nude-cafe) ;
+        padding: 1em 15em;
+    }
+}
