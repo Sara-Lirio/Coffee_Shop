@@ -19,21 +19,21 @@
 .title{
     font-family: var(--font-fredoka-one);
     color: var(--verde-dark);
-    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-width: .3px;
     -webkit-text-stroke-color: var(--bege-claro);
-    font-size: 32px;
+    font-size: 35px;
 }
 
 .icon{
     color: var(--nude-cafe);
-    font-size: 2rem;
+    font-size: 2.7rem;
 }
 
 .button1, .button2 {
     font-family: var(--font-comfortaa);
     border-radius: 20px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
     padding: .6em 2em;
     border: 1px solid var(--nude-cafe);
     width: 11em;

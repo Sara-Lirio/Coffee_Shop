@@ -1,12 +1,12 @@
 .header {
     background-color: var(--verde-dark);
-    border-bottom: 3px solid var(--nude-cafe);
+    border-bottom: 2px solid var(--nude-cafe);
     text-align: center;
-    margin: 1em;
+    margin: 0.4em 2em;
 }
 
 .logo {
-    width: 12rem;
+    width: 10rem;
 }
 
 @media (min-width: 49.0rem){
