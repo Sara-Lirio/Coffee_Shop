@@ -10,7 +10,7 @@ const Menu = () => {
         <Button route={'/doces'} button={'Doces'} className={style.button}/>
         <Button button={'Store'} className={style.button}/>
         <Button button={'Nosso Café'} className={style.button}/>
-        <Button button={'Promoções'} className={style.btnpromo}/>
+        <Button route={'/promo'} button={'Promoções'} className={style.btnpromo}/>
     </nav>
   )
 }

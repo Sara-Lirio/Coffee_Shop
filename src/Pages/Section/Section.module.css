@@ -19,7 +19,7 @@
 .title{
     font-family: var(--font-fredoka-one);
     color: var(--verde-dark);
-    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: var(--bege-claro);
     font-size: 32px;
 }

@@ -1,27 +1,56 @@
-.sectionCard{
-    display: flex;
-    align-items: center;
+.container {
     margin: 1em auto;
+    max-width: 60vw;
 }
 
-.card {
+.container .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.container .carousel .item {
     background-color: var(--nude-cafe);
     height: 14em;
-    width: 10em;
-    border-radius: 12px ;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: .6em;
+    margin: 0 .6em 1em 0;
+    padding: 1em;
 }
 
-.img{
+.container .carousel .item .img {
     width: 9em;
     background-color: var(--nude-cafe);
+    object-fit: cover;
 }
 
-.imgtea{
+.container .carousel .item .imgtea {
     width: 5.5em;
     background-color: var(--nude-cafe);
+    margin: 1.8em;
+    object-fit: cover;
 }
 
+
+@media (min-width: 49.0rem) {
+
+    ::-webkit-scrollbar {
+        width: 25px;
+    }
+
+    ::-webkit-scrollbar-track {
+  
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(54, 56, 58);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(86, 88, 90);
+    }
+}

@@ -8,26 +8,29 @@ import chaGelado from '../../assets/images/Iced-Tea.png'
 import style from './CardPromo.module.css'
 
 const CardPromo = () => {
-    
+
     return (
-        <section className={style.sectionCard}>
-            <div className={style.card}>
-                <img className={style.img} src={frappuccino} />
-            </div>
-            <div className={style.card}>
-                <img className={style.img} src={cafeExpresso} />
-            </div>
-            <div className={style.card}>
-                <img className={style.img} src={wafle} />
-            </div>
-            <div className={style.card}>
-                <img className={style.img} src={cappuccino} />
-            </div>
-            <div className={style.card}>
-                <img className={style.img} src={paoQueijo} />
-            </div>
-            <div className={style.card}>
-                <img className={style.imgtea} src={chaGelado} />
+        <section className={style.container}>
+            <div className={style.carousel}>
+                <div className={style.item}>
+                    <img className={style.img} src={frappuccino} />
+                </div>
+                <div className={style.item}>
+                    <img className={style.img} src={cafeExpresso} />
+                </div>
+                <div className={style.item}>
+                    <img className={style.img} src={wafle} />
+                </div>
+                <div className={style.item}>
+                    <img className={style.img} src={cappuccino} />
+                </div>
+                <div className={style.item}>
+                    <img className={style.img} src={paoQueijo} />
+                </div>
+                <div className={style.item}>
+                    <img className={style.imgtea} src={chaGelado} />
+                </div>
+                
             </div>
         </section>
     )

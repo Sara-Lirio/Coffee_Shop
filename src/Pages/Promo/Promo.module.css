@@ -1,0 +1,17 @@
+.titlePromo{
+    font-family: var(--font-fredoka-one);
+    color: var(--verde-dark);
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: var(--bege-claro);
+    font-size: 35px;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.text {
+    font-family: var(--font-comfortaa);
+    font-size: 14px;
+    margin-top: 3em;
+    text-align: center;
+    color: var(--bege-claro);
+}
