@@ -1,5 +1,5 @@
 # Coffee_Shop [EM CONSTRUÇÃO]
-<img src="./src/assets/logo/logo_coffeeshop.png" width="550px;" align="right"/>
+<img src="./src/assets/logo/logo_coffeeshop.png" width="480px;" align="right"/>
 
 
 <p>Projeto desenvolvido com intuito de facilitar o registro dos pedidos dos clientes, 
